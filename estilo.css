@@ -12,7 +12,7 @@ body {
     font-family: Arial, Verdana, sans-serif;
 }
 h1{
-    color:red;
+    visibility: hidden;
 }
 h2{
     text-transform: uppercase;
@@ -54,6 +54,7 @@ h2{
 }
 
 #topo {
+    background-image: url("imagens/liga-justica.jpg");
     height: 280px;
     width: 980px;
 }
