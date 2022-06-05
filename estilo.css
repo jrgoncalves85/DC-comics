@@ -10,6 +10,8 @@ Data: 05/06/2022
 }
 body {
     font-family: Arial, Verdana, sans-serif;
+    background-image: url("imagens/bk.png");
+    background-repeat: repeat-x;
 }
 h1{
     visibility: hidden;
@@ -54,9 +56,14 @@ h2{
 }
 
 #topo {
-    background-image: url("imagens/liga-justica.jpg");
     height: 280px;
     width: 980px;
+}
+.topo-liga {
+    background-image: url("imagens/liga-justica.jpg");
+}
+.topo-esquadrao {
+    background-image: url("imagens/esquadrao-suicida.jpg");
 }
 
 #menu {
