@@ -1,0 +1,124 @@
+/* 
+Site Liga da Justiça e Esquadrão Suicida
+Professor Júnior Gonçalves
+Data: 05/06/2022
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+h1{
+    color:red;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#container {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #FFF;
+}
+
+#herois {
+    background-color: #222;
+    height: 45px;
+}
+#herois ul {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+#herois ul li {
+    float: left;
+}
+#herois ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    color: #E6E6FA;
+    width: 400px;
+    text-align: center;
+    padding: 10px 45px;
+}
+#herois ul li a:hover {
+    color: #444;
+    background-color: #E6E6FA;
+}
+
+#topo {
+    height: 280px;
+    width: 980px;
+}
+
+#menu {
+    width: 980px;
+    height: 35px;
+}
+#menu ul {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+#menu ul li {
+    float: left;
+}
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    width: 194px;
+    text-align: center;
+    padding: 7px 0;
+}
+
+
+.menu-esquadrao{
+    background-color: #6E057C;
+    border-top: 3px solid #4C1C7F;
+    border-bottom: 3px solid #4C1C7F;
+}
+.menu-esquadrao a{
+    color: #70EDAE;
+}
+.menu-esquadrao a:hover{
+    color: #4C1C7F;
+    background-color: #94EAAD;
+}
+
+#coluna {
+    float: left;
+    background: #E6E6FA;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+    height: 400px;
+    width: 260px;
+    font-style: italic;
+    border-right: 1px solid #97B2B9;
+}
+#conteudo {
+    float: right;
+    height: 400px;
+    margin: 30px 0 0 0;
+    text-align: justify;
+    width: 620px;
+    color: #666;
+}
+
+#rodape {
+    text-align: center;
+    color: #FFF;
+    clear: both;
+}
+h4 {
+    color: #e9e9e9;
+    font-size: 15px;
+    padding: 10px 0 20px 0;
+}
