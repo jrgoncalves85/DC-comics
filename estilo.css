@@ -10,8 +10,14 @@ Data: 05/06/2022
 }
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-image: url("imagens/bk.png");
-    background-repeat: repeat-x;
+    background-image: url("imagens/bkground-1.jpg");
+    /* background-repeat: repeat-x;*/
+}
+.body-liga{
+    background-image: url("imagens/bkground-1.jpg");
+}
+.body-esquadrao{
+    background-image: url("imagens/bkground-2.jpg");
 }
 h1{
     visibility: hidden;
