@@ -18,7 +18,7 @@ body {
 .body-esquadrao{
     background-image: url("imagens/bkground-2.jpg");
 }
-h1{
+h1 {
     visibility: hidden;
 }
 h2 {
@@ -110,7 +110,6 @@ h2 {
 .menu-liga ul li a:hover{
     background-color: #d4d4d4;
     color: #95020d;
-    text-decoration: none;
 }
 .menu-esquadrao{
     background-color: #6E057C;
@@ -154,4 +153,10 @@ h4 {
     color: #e9e9e9;
     font-size: 15px;
     padding: 10px 0 20px 0;
+}
+.rodape-liga{
+    background-color: #95020d;
+}
+.rodape-esquadrao{
+    background-color: #6E057C;
 }
