@@ -10,25 +10,32 @@ Data: 05/06/2022
 }
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-image: url("imagens/bkground-1.jpg");
     /* background-repeat: repeat-x;*/
 }
 .body-liga{
     background-image: url("imagens/bkground-1.jpg");
+    background-repeat: no-repeat;
 }
 .body-esquadrao{
     background-image: url("imagens/bkground-2.jpg");
+    background-repeat: no-repeat;
 }
 h1{
     visibility: hidden;
 }
-h2{
+h2 {
+    color: #95020D;
     text-transform: uppercase;
     font-size: 18px;
     font-style: italic;
     margin-top: 10px;
 }
-
+.h2-liga {
+    color: #95020D;
+}
+.h2-esquadrao {
+    color: #6E057C;
+}
 #container {
     width: 980px;
     margin: 0 auto;
