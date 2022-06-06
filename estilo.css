@@ -14,11 +14,9 @@ body {
 }
 .body-liga{
     background-image: url("imagens/bkground-1.jpg");
-    background-repeat: no-repeat;
 }
 .body-esquadrao{
     background-image: url("imagens/bkground-2.jpg");
-    background-repeat: no-repeat;
 }
 h1{
     visibility: hidden;
@@ -74,9 +72,11 @@ h2 {
 }
 .topo-liga {
     background-image: url("imagens/liga-justica.jpg");
+    background-repeat: no-repeat;
 }
 .topo-esquadrao {
     background-image: url("imagens/esquadrao-suicida.jpg");
+    background-repeat: no-repeat;
 }
 
 #menu {
@@ -99,7 +99,19 @@ h2 {
     padding: 7px 0;
 }
 
-
+.menu-liga{
+    background-color: #95020d;
+    border-top: 3px solid #580103;
+    border-bottom: 3px solid #580103;
+}
+.menu-liga ul li a{
+    color: #d4d4d4;
+}
+.menu-liga ul li a:hover{
+    background-color: #d4d4d4;
+    color: #95020d;
+    text-decoration: none;
+}
 .menu-esquadrao{
     background-color: #6E057C;
     border-top: 3px solid #4C1C7F;
